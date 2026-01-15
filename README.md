@@ -1,5 +1,13 @@
 # scroll-toggle-site
 
+## Download Dependencies
+```
+npm install gsap
+
+npm install sass sass-loader --save-dev
+```
+
+
 ## Project setup
 ```
 npm install
@@ -8,11 +16,6 @@ npm install
 ### Compiles and hot-reloads for development
 ```
 npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Lints and fixes files
