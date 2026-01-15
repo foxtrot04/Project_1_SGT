@@ -1,0 +1,26 @@
+$color-primary: #c6fb50; //lime colour green for primary colour
+$color-dark: #111606; //deep dark green for the background
+$color-light: #fbfff1; //white light colour
+$color-gray: #bbbbbb; //gray colour for secondary colour
+$color-gray-dark: #aaaaaa; //for border colour
+
+// viewports for different devices
+$breakpoint-mobile: 480px;  //size for mobile
+$breakpoint-tablet: 768px;  //size for tablet
+$breakpoint-desktop: 1024px;  //size for desktop
+$breakpoint-wide: 1400px;  //size for monitors
+
+// Spacing
+$spacing-xs: 0.5rem;  //extra small padding
+$spacing-sm: 1rem;  //small padding
+$spacing-md: 2rem;  //medium padding
+$spacing-lg: 4rem;  //large padding 
+$spacing-xl: 6rem;  //extra large padding
+
+// Transition speed
+$transition-fast: 0.3s ease;    //fast
+$transition-medium: 0.5s ease;  //medium
+$transition-slow: 0.7s ease; //slow
+
+$font-heading: 'MainSerif', Georgia, serif;  //font
+

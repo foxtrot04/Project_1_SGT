@@ -1,0 +1,65 @@
+//variables
+$color-primary: #c6fb50;  //lime Green
+$color-dark: #111606; //deep Background Dark
+$color-light: #fbfff1;  //white
+$color-gray: #bbbbbb;  //gray
+$color-gray-dark: #aaaaaa;  //dark grey
+
+//reset & Base Styles
+* {
+  margin: 0;   //removes default browser margins
+  padding: 0;  //removes default browser padding
+  box-sizing: border-box;  //ensures padding doesn't increase the width of elements
+}
+
+html {
+  /*prevents the browser's default smooth scroll so GSAP can take full control */
+  scroll-behavior: auto;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: $color-dark;  //sets the dark theme background
+  color: $color-light;  //sets the default light text color
+  overflow-x: hidden;  //prevents unwanted horizontal scrolling/shaking
+  line-height: 1.6;   //improves readability with balanced spacing between lines
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;  //ensures images never grow wider than their container
+  display: block;  //removes the annoying gap at the bottom of images
+}
+
+button {
+  cursor: pointer;  //shows the "hand" icon on hover
+  border: none;  //removes default borders
+  background: none;  //removes default gray background
+  font-family: inherit;  //ensures button text uses the site's font
+}
+
+//container
+.container {
+  max-width: 1400px;  //the website content will never be wider than this
+  margin: 0 auto;  //centers the container on the screen
+  padding: 0 2rem;  //adds padding on the left and right sides
+
+  /*adjusts padding for mobile devices so text isn't touching the edge */
+  @media (max-width: 768px) {
+    padding: 0 1.5rem;
+  }
+}
+
+//utility Classes
+.text-primary {
+  color: $color-primary;  //quickly turn text into the lime brand color
+}
+
+.bg-dark {
+  background-color: $color-dark;  //quickly set a background to the dark brand color
+}
+
+.bg-light {
+  background-color: $color-light;  //quickly set a background to the light brand color
+}
