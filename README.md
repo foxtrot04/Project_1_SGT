@@ -32,8 +32,6 @@ npm run serve
 ```
 http://localhost:8080/
 ```
-
-### Lints and fixes files
 ```
 npm run lint
 ```
