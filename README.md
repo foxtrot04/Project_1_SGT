@@ -1,12 +1,12 @@
 # scroll-toggle-site
 
-##Technology used in the Project:
+## Technology used in the Project:
 - Vue.js 2
 - GSAP
 - SASS
 - Vue CLI
 
-##Dependencies used in the Project:
+## Dependencies used in the Project:
 - gsap
 - sass
 - sass-loader
