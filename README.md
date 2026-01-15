@@ -11,6 +11,8 @@
 - sass
 - sass-loader
 
+### Project Setup
+
 ## Download Dependencies
 ```
 npm install gsap
