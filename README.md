@@ -13,24 +13,24 @@
 
 ## Project Setup
 
-Download Dependencies
+Download Dependencies:
 ```
 npm install gsap
 
 npm install sass sass-loader --save-dev
 ```
 
-## Project setup
+Install Dependencies to run the project:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Compiles the project:
 ```
 npm run serve
 ```
 
-## Website will be available at:
+Website will be available at:
 ```
 http://localhost:8080/
 ```
