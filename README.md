@@ -26,14 +26,14 @@ gsap@3.14.2
 
 ## Project Setup / How to Start?
 
-Download Dependencies:
+1. Download Dependencies:
 ```
 npm install gsap
 
 npm install sass sass-loader --save-dev
 ```
 
-Install Dependencies to run the project:
+2. Install Dependencies to run the project:
 ```
 npm install
 ```
@@ -43,12 +43,12 @@ npm install
 cd scroll-toggle-site
 ```
 
-Compiles the project:
+3. Compiles the project:
 ```
 npm run serve
 ```
 
-Website will be available at:
+4. Website will be available at:
 ```
 http://localhost:8080/
 ```
