@@ -134,7 +134,6 @@ export default {
         const section1Bottom = section1.offsetTop + section1.offsetHeight
         const scrollY = window.pageYOffset
         
-        // Hide header when we've scrolled past Section 1
         this.showHeader = scrollY < section1Bottom
       })
     },
@@ -148,7 +147,7 @@ export default {
       const containerHeight = container.offsetHeight
       const windowHeight = window.innerHeight
       
-      // Calculate which section should be active
+      //calculate which section should be active
       const scrollProgress = (scrollTop - containerTop) / (containerHeight - windowHeight)
       const sectionProgress = scrollProgress * this.sections.length
       const newIndex = Math.min(Math.max(Math.floor(sectionProgress), 0), this.sections.length - 1)
@@ -171,7 +170,7 @@ export default {
       const windowHeight = window.innerHeight
       const containerHeight = container.offsetHeight
       
-      // Calculate scroll position for the section
+      //calculate scroll position for the section
       const scrollTarget = containerTop + (index / this.sections.length) * (containerHeight - windowHeight)
       
       if (this.lenis) {
@@ -180,14 +179,13 @@ export default {
           easing: (t) => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t
         })
       } else {
-        // Fallback if Lenis isn't available
         window.scrollTo({
           top: scrollTarget,
           behavior: 'smooth'
         })
       }
       
-      // Update immediately
+      //update immediately
       this.activeIndex = index
       this.currentNumber = index + 1
     }
@@ -199,4 +197,5 @@ export default {
 .index-page {
   position: relative;
 }
+
 </style>
