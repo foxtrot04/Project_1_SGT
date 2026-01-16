@@ -11,7 +11,20 @@
 - sass
 - sass-loader
 
-## Project Setup
+## Node Version
+v20.15.1
+
+## Vue Cli Version
+@vue/cli 5.0.9
+
+## Sass Version
+1.97.2 compiled with dart2js 3.10.7
+
+## GSAP Version
+gsap@3.14.2
+
+
+## Project Setup / How to Start?
 
 Download Dependencies:
 ```
