@@ -35,5 +35,5 @@ Website will be available at:
 http://localhost:8080/
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Vue CLI Documentation
+See [Reference](https://cli.vuejs.org/).
