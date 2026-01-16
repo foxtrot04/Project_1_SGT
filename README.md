@@ -38,6 +38,11 @@ Install Dependencies to run the project:
 npm install
 ```
 
+(if required), use 'cd' to enter the project's directory containing .json file to compile/run the project. Otherwise, ignore this step.
+```
+cd scroll-toggle-site
+```
+
 Compiles the project:
 ```
 npm run serve
