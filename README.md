@@ -38,7 +38,7 @@ npm install sass sass-loader --save-dev
 npm install
 ```
 
-(if required), use 'cd' to enter the project's directory containing .json file to compile/run the project. Otherwise, ignore this step.
+(if required), use 'cd' command in the terminal to enter the project's directory containing .json file to compile/run the project. Otherwise, ignore this step.
 ```
 cd scroll-toggle-site
 ```
